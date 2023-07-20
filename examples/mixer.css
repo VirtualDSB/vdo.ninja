@@ -1,0 +1,30 @@
+/* Iframe */
+#container div iframe{
+    width:1024px;
+    height:768px;
+    position:relative;
+    top:-65px;
+   }
+   
+   /* Container */
+   #container{
+    position:relative;
+    bottom:auto !important;
+    transform:translatex(328px) translatey(-483px);
+    display:inline-block;
+    margin-bottom:15px;
+    height:1285px;
+   }
+   
+   /* Division */
+   #container > div{
+    min-height:857px;
+    transform:translatex(0px) translatey(0px);
+   }
+   
+   /* Canvas */
+   #container canvas{
+    position:relative;
+    top:768px;
+   }
+   
